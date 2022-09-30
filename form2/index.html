@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <link rel="stylesheet" href="/form2/style.css">
+   <title>Form2</title>
+</head>
+
+<body>
+
+   <section class="form">
+      <div class="container">
+         <div class="form__wrapper">
+            <div class="form__contain">
+               <div class="way1">
+                  <p class="title">
+                     Способ получения
+                  </p>
+                  <input name="city" class="city" type="text" placeholder="Город">
+                  <select name="postman">
+                     <option value="">
+                        <p class="postman">Почта России</p>
+                     </option>
+                  </select>
+                  <div class="adress">
+                     <input name="streer" class="adr" type="text" placeholder="Улица">
+                     <input name="home" class="min" type="text" placeholder="Дом">
+                     <input name="flat" class="min" type="text" placeholder="Квартира">
+                     <input name="index" class="min" type="text" placeholder="Индекс">
+                  </div>
+                  <input name="comments" type="text" class="addcom" placeholder="Добавить комментарий">
+               </div>
+
+               <div class="recipient">
+                  <p class="title">
+                     Данные получателя
+                  </p>
+                  <div class="recipient__fio">
+                     <input name="surname" class="recipient__one" type="text" placeholder="Фамилия">
+                     <input name="firstname" class="recipient__one" type="text" placeholder="Имя">
+                     <input name="patronymic" class="recipient__one" type="text" placeholder="Отчество">
+                  </div>
+                  <div class="number">
+                     <input type="tel" name="number" class="recipient__one phone" placeholder="Номер телефона">
+                     <label class="num__text" for="number">По этому номеру телефона мы с вяжемся с вами для
+                        подтверждения заказа</label>
+                  </div>
+
+                  <div class="email">
+                     <input class="emailinput" type="email" name="email" placeholder="E-mail">
+                     <label class="num__text2" for="email">На эту почту вам придет письмо с составом заказа, а так же
+                        трэк-номер для его отслеживания</label>
+                  </div>
+
+                  <div class="checkbox">
+                     <input class="custom-checkbox" type="checkbox" id="color-1" name="color-1" value="indigo">
+                     <label class="check__text" for="color-1">Подписаться на рассылку новинок и акций</label>
+                  </div>
+               </div>
+
+               <div class="way2">
+                  <p class="title">
+                     Способ оплаты
+                  </p>
+
+                  <div class="radio">
+                     <input class="custom-radio" type="radio" id="color-4" name="color" value="yellow">
+                     <label class="check__text" for="color-4" >Оплата при получении наличными или картой</label>
+                   </div>
+                 
+                   <div class="radio">
+                     <input class="custom-radio" type="radio" id="color-5" name="color" value="green">
+                     <label class="check__text" for="color-5">Оплата банковской картой онлайн</label>
+                   </div>
+
+               </div>
+
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <div class="linkform2">
+      <a href="/index.html">Form 1</a>
+      </div>
+
+</body>
+
+</html>
