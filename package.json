@@ -1,0 +1,26 @@
+{
+  "name": "fe39-hw-4",
+  "version": "1.0.0",
+  "description": "FE39-HW-4",
+  "main": "index.js",
+  "source": "./index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juju1321/FE39-HW-4.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Juju1321/FE39-HW-4/issues"
+  },
+  "homepage": "https://github.com/Juju1321/FE39-HW-4#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0",
+    "parcel": "^2.7.0",
+    "sass": "^1.55.0"
+  }
+}
