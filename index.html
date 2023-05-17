@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <link rel="stylesheet" href="./style.scss">
+   <title>Form1</title>
+</head>
+<body>
+   
+   <section class="form">
+      <div class="container">
+         <div class="form-wrapper">
+            <div class="form__contain">
+               <div class="form__description">
+                  <h1 class="f-description__title">
+                     Не нашли что искали? Оставьте заявку и мы разработаем программу специально для вас!
+                  </h1>
+                  <form action="">
+                     <div class="name__number">
+                        <input type="text" class="name"  name="Name" placeholder="Имя*">
+                        <input type="tel" name="Tel" class="telepho" placeholder="Телефон*" pattern="+ 375 ([1-9]{2}) [0-9]{3}-[0-9]{2} - [0-9]{2}" > 
+                     </div>
+                     <div class="email">
+                        <input class="email__input" type="email" name="Email" placeholder="Email">
+                     </div>
+                     <div class="comments">
+                        <input type="text" name="Comments" class="comments__input"placeholder="Комментарий">
+                     </div>
+
+                     <input type="submit" value="Отправить" class="form__btn">
+                  </form>
+               </div>
+               <div class="form__bg">
+                  <img class="bg" src="/assets/images/cover9 1.svg" alt="">
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <div class="linkform2">
+   <a href="/form2/index.html">Form 2</a>
+   </div>
+</body>
+</html>
